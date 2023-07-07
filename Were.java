@@ -1,9 +1,11 @@
 
 class Computer{
+
     public void playMusic(){
         System.out.println("It is Play music");
     }
 
+    
     public int buyPen(int cost){
 
         System.out.println("The Value of the pen:" +cost);
