@@ -21,11 +21,18 @@ public void show(){
  System.out.println(brand+ " : " + price+" : " + color+" : "+useCountry);
    } 
 
+public static void show1(Mobile obj){
+    System.out.println(obj.brand+" : "+obj.price+" : "+useCountry);
 }
 
 
 
-public class StatBlok {
+
+}
+
+
+
+public class StatMetd {
 
 public static void main(String a[]){
 
@@ -42,9 +49,12 @@ obj3.color = " White";
 
 
 
-obj1.show();
-obj2.show();
-obj3.show();
+// obj1.show();
+// obj2.show();
+// obj3.show();
+
+
+Mobile.show1(obj1);//calling static method
 
 
 }
