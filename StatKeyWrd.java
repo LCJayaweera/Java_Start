@@ -3,10 +3,11 @@ class Mobile{
     String brand;
     int price;
     String color;
+    static String useCountry;
 
    public void show(){
 
-    System.out.println(brand+ " : " + price+" : " + color);
+    System.out.println(brand+ " : " + price+" : " + color+" : "+useCountry);
    } 
 
 }
@@ -32,6 +33,8 @@ obj3.price =1300;
 obj1.color = "Black";
 obj2.color = "Red";
 obj3.color = " White";
+
+Mobile.useCountry="SriLanka";// ststic data type acees as class mebmber not as object member
 
 obj1.show();
 obj2.show();
