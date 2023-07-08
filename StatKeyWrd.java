@@ -34,7 +34,7 @@ obj1.color = "Black";
 obj2.color = "Red";
 obj3.color = " White";
 
-Mobile.useCountry="SriLanka";// ststic data type acees as class mebmber not as object member
+Mobile.useCountry="SriLanka";// static data type access as class member not as object member
 
 obj1.show();
 obj2.show();
