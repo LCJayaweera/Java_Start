@@ -2,10 +2,12 @@ class A{
 
 
 public A(){
+        super();
     System.out.println("class A normal");
 } 
 
 public A(int a){
+        super();
     System.out.println("Class A Pramaritize");
 }
 
@@ -15,10 +17,13 @@ public A(int a){
 class B extends A{
 
 public B(){
+        super();
     System.out.println("class B normal");
 } 
 
 public B(int a){
+
+    super(a);
     System.out.println("Class B Pramaritize");
 }
 
