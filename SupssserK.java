@@ -23,7 +23,7 @@ public B(){
 
 public B(int a){
 
-    super(a);
+    this();
     System.out.println("Class B Pramaritize");
 }
 
@@ -35,8 +35,8 @@ public B(int a){
 public class SupssserK {
 
 public static void main(String a[]){
-     A obj1 = new A();
-     B obj2 = new B();
+    //  A obj1 = new A();
+    //  B obj2 = new B();
      B obj3 = new B(23);
 
     
